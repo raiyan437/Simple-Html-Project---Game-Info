@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8" /> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple HTML Project</title>
+</head>
+
+<body>
+    <h1 align="center"> Simple HTML Project by "Raiyan" </h1>
+    <p align="center"><img src="logo.png" height="150" width="150" border="0" title="Logo" alt="NO pic found" /></p>
+    <hr>
+
+    <iframe width="626" height="315" src="https://www.youtube.com/embed/X2z9mwLQEfk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="626" height="315" src="https://www.youtube.com/embed/XV8vBqNu9nI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="626" height="315" src="https://www.youtube.com/embed/ixllGOX0Evw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <hr>
+
+    <iframe
+        width="1900"
+        height="640"
+        src="https://playvalorant.com/en-gb/"    
+        title="YouTube video player"
+        allowfullscreen
+    >
+    </iframe>
+    <hr>
+
+    <p>
+        PC games, also known as personal computer games, are interactive software designed to run on personal computers that allow users to engage in various forms of gameplay. These games typically consist of a combination of graphics, sound effects, and storytelling elements that are designed to provide a unique gaming experience. The genre of PC games can vary widely, ranging from action and adventure games, to strategy and simulation games, to sports and racing games, and many others. PC games have evolved greatly over the years, with advances in technology leading to improved graphics, more realistic sound effects, and more immersive gameplay. The popularity of PC games continues to grow, with millions of people around the world enjoying these games for entertainment and leisure purposes.
+    </p>
+    <hr>
+
+    <p align="center">
+        <table border="1">
+
+            <caption>
+            <b>Game Table</b>
+            </caption>
+
+            <thead>
+            <tr align="center">
+                <th>Platform</th>
+                <th>Name</th>
+                <th>Catagory</th>
+            </tr>
+            </thead>
+
+            <tbody>
+            <tr align="center">
+                <td>PS5</td>
+                <td>Uncharted</td>
+                <td>Adventure</td>
+            </tr>
+            <tr align="center">
+                <td>PC</td>
+                <td>Call of Duty MW2</td>
+                <td>Shooting</td>
+            </tr>
+            <tr align="center">
+                <td>PS5</td>
+                <td>God of War</td>
+                <td>RPG</td>
+            </tr>
+            </tbody>
+
+        </table>
+
+    </p>
+    <hr>
+
+    <form action="/" method="post">
+        <div>
+        <label for="username">Username: </label>
+        <input
+            type="text"
+            id="username"
+            name="username"
+            size="30"
+            autofocus
+            placeholder="only letters and numbers"
+            pattern="[a-zA-Z0-9]+"
+            required
+            list="usernames"
+        />
+        </div>
+        <br />
+
+        <div>
+        <label for="password">Password: </label>
+        <input type="password" id="password" name="password" placeholder="Enter password please" required />
+        </div>
+        <br />
+        
+        <div>
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email" autocomplete placeholder="Enter your email" required />
+        </div>
+        <br />
+        <div>
+        <label for="phone">phone: </label>
+        <input type="tel" id="phone" name="phone" placeholder="11 digit number" required />
+        </div>
+        <br />
+        <div>
+        <label for="dob">Date of birth: </label>
+        <input type="date" id="dob" name="dob" required/>
+        </div>
+        <br />
+        <div>
+        <label for="file">Select a file: </label>
+        <input type="file" id="file" name="file" />
+        </div>
+
+        <div>
+        <p>Religion:       
+            <input type="checkbox" id="muslim" />
+            <label for="muslim">muslim</label>
+        
+            <input type="checkbox" id="hindu" />
+            <label for="hindu">hindu</label>
+        
+            <input type="checkbox" id="other"  />
+            <label for="other">other</label>
+        </p>
+        </div>
+        <!-- radiobutton -->
+        <div>
+        <p>Gender:
+        
+            <input type="radio" id="male" name="gender" />
+            <label for="male">male</label>
+        
+        
+            <input type="radio" id="female" name="gender" />
+            <label for="female">female</label>
+        
+        
+            <input type="radio" id="other" name="gender" />
+            <label for="other">other</label>
+        </p>
+        </div>
+        <!-- dropdown menu -->
+        <div>
+        <label for="department">Department: </label>
+        <select name="department" id="department">
+            <option value="cse">CSE</option>
+            <option value="eee">EEE</option>
+            <option value="llb">LLB</option>
+        </select>
+        </div>
+        <!-- textarea -->
+        <br />
+        <div>
+        <label for="message">Message: </label> <br />
+        <textarea name="" id="message" cols="35" rows="4"></textarea>
+        </div>
+        <!-- button -->
+        <br />
+        <div>
+        <button type="submit">Sign Up</button>
+        <button type="reset">Clear</button>
+        </div>
+    </form>
+
+
+</body>
+
+</html>
